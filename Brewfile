@@ -22,6 +22,9 @@ brew 'rbenv'
 brew 'ruby-build'
 brew 'jenv'
 
+# TODO: maybe I should use the setup script?
+brew 'nginx'
+
 #casks!
 cask 'docker'
 cask 'firefox'
