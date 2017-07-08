@@ -6,11 +6,16 @@ tap 'homebrew/services'
 tap 'homebrew/versions'
 #tap 'homebrew/fuse'
 
+# helpful scripts tap
+# https://github.com/github/homebrew-bootstrap
+tap 'github/bootstrap'
 
 # cloudfoundry tap
 tap 'cloudfoundry/tap'
 
 # env tools
+brew 'nodenv'
+brew 'node-build'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
 brew 'rbenv'
