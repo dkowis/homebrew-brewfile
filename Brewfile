@@ -21,6 +21,9 @@ brew 'pyenv-virtualenv'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'jenv'
+#git tools!
+brew 'git'
+brew 'git-tracker'
 
 # TODO: maybe I should use the setup script?
 brew 'nginx'
@@ -51,6 +54,7 @@ cask 'skim'
 cask 'slack'
 cask 'virtualbox'
 cask 'xscreensaver'
+cask 'google-cloud-sdk'
 
 # gotta have these for building
 brew 'autoconf'
