@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/versions'
+tap 'caskroom/fonts'
 #tap 'homebrew/fuse'
 
 # helpful scripts tap
@@ -27,6 +28,13 @@ brew 'git-tracker'
 
 # TODO: maybe I should use the setup script?
 brew 'nginx'
+
+# font casks!
+cask 'font-sourcecodepro-nerd-font'
+cask 'font-anonymouspro-nerd-font'
+cask 'font-inconsolata-nerd-font'
+cask 'font-firamono-nerd-font'
+cask 'font-firacode-nerd-font'
 
 #casks!
 cask 'docker'
