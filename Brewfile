@@ -67,6 +67,7 @@ cask 'google-cloud-sdk'
 # gotta have these for building
 brew 'autoconf'
 brew 'automake'
+brew 'openssl'
 
 # brews!
 ### Better copy/paste with tmux 
